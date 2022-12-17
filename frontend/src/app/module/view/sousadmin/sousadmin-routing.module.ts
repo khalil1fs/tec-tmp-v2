@@ -16,13 +16,35 @@ const routes: Routes = [
           import('src/app/module/view/sousadmin/dashboard/dashboard.module').then((m) => m.DashboardModule),
       },      
 {
-        path: 'tva',
+        path: 'rendez-vous',
         canActivate: [AuthGuard],
         data: {
           role: Role.SousAdmin,
         },
         loadChildren: () =>
-          import('src/app/module/view/sousadmin/tva/tva-module').then((m) => m.TvaModule),
+          import('src/app/module/view/sousadmin/rendez-vous/rendez-vous-module').then((m) => m.RendezVousModule),
+      },
+
+      
+{
+        path: 'service',
+        canActivate: [AuthGuard],
+        data: {
+          role: Role.SousAdmin,
+        },
+        loadChildren: () =>
+          import('src/app/module/view/sousadmin/service/service-module').then((m) => m.ServiceModule),
+      },
+
+      
+{
+        path: 'seccurcales',
+        canActivate: [AuthGuard],
+        data: {
+          role: Role.SousAdmin,
+        },
+        loadChildren: () =>
+          import('src/app/module/view/sousadmin/seccurcales/seccurcales-module').then((m) => m.SeccurcalesModule),
       },
 
 

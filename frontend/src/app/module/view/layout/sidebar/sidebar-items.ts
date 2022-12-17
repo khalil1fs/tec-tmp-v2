@@ -58,9 +58,39 @@ export const ROUTES: RouteInfo[] = [
   },
  
   {
-    path: 'admin/tva/list',
-    title: 'Tva',
-    moduleName: 'Tva',
+    path: 'admin/rendez-vous/list',
+    title: 'Rendez vous',
+    moduleName: 'Rendez vous',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Admin'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'admin/service/list',
+    title: 'Service',
+    moduleName: 'Service',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Admin'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'admin/seccurcales/list',
+    title: 'Seccurcales',
+    moduleName: 'Seccurcales',
     iconType: 'material-icons-two-tone',
     icon: 'add_to_photos',
     class: '',
@@ -129,9 +159,39 @@ export const ROUTES: RouteInfo[] = [
   },
  
   {
-    path: 'sousadmin/tva/list',
-    title: 'Tva',
-    moduleName: 'Tva',
+    path: 'sousadmin/rendez-vous/list',
+    title: 'Rendez vous',
+    moduleName: 'Rendez vous',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['SousAdmin'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'sousadmin/service/list',
+    title: 'Service',
+    moduleName: 'Service',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['SousAdmin'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'sousadmin/seccurcales/list',
+    title: 'Seccurcales',
+    moduleName: 'Seccurcales',
     iconType: 'material-icons-two-tone',
     icon: 'add_to_photos',
     class: '',
@@ -191,9 +251,39 @@ export const ROUTES: RouteInfo[] = [
   },
  
   {
-    path: 'technicien/tva/list',
-    title: 'Tva',
-    moduleName: 'Tva',
+    path: 'technicien/rendez-vous/list',
+    title: 'Rendez vous',
+    moduleName: 'Rendez vous',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Technicien'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'technicien/service/list',
+    title: 'Service',
+    moduleName: 'Service',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Technicien'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'technicien/seccurcales/list',
+    title: 'Seccurcales',
+    moduleName: 'Seccurcales',
     iconType: 'material-icons-two-tone',
     icon: 'add_to_photos',
     class: '',
@@ -253,9 +343,39 @@ export const ROUTES: RouteInfo[] = [
   },
  
   {
-    path: 'client/tva/list',
-    title: 'Tva',
-    moduleName: 'Tva',
+    path: 'client/rendez-vous/list',
+    title: 'Rendez vous',
+    moduleName: 'Rendez vous',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Client'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'client/service/list',
+    title: 'Service',
+    moduleName: 'Service',
+    iconType: 'material-icons-two-tone',
+    icon: 'add_to_photos',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Client'],
+    submenu: [],
+  },
+
+
+  {
+    path: 'client/seccurcales/list',
+    title: 'Seccurcales',
+    moduleName: 'Seccurcales',
     iconType: 'material-icons-two-tone',
     icon: 'add_to_photos',
     class: '',
